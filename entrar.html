@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+   
+    <header>
+        <a href="#" class="Titulo">Computação Quântica</a>
+
+        <ul class="navlist">
+            <li><a href="index.html">Introdução</a></li>
+            <li><a href="aplicacoes(1).html">Aplicações</a></li>
+            <li><a href="matematica(1).html">Matemática</a></li>
+           <li><a href="entrar.html">Ingressando</a></li>
+           
+           <div class="menu-container" id="menu">
+            <p class="paragmenu"><a href="#">Contato</a></p>
+            <p class="paragmenu"><a href="#">Suporte</a></p>
+            <p class="paragmenu"><a href="#">Sobre nós</a></p>
+          </div>
+        
+ 
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="bloco-1">
+        <div class="bloco1-texto">
+            <h1>Ingressando em Computação Quântica</h1>
+            <p>A computação quântica, em sua essência, é intrinsecamente ligada a conceitos matemáticos avançados, fundamentais para compreender o funcionamento dos algoritmos quânticos e a manipulação de qubits. Vamos explorar alguns desses conceitos:</p>
+        </div>
+        <div class="line"></div>
+    </section>
+
+    <section class="bloco-2">
+        <div class="bloco2-texto">
+            <h1>Educação e Habilidades Necessárias</h1>
+            <h2 class="bloco2-h2">Algumas dicas de como entrar e se aprofundar na área:</h2>
+            <br>
+            <h3 class="bloco2-h3">Formação Acadêmica:</h3>
+            <br>
+            <p class="bloco2-parag">Obtenha um diploma em ciência da computação, física, matemática ou áreas afins. Programas de pós-graduação ou cursos específicos em computação quântica são uma vantagem.</p>
+            <br>
+            <h3 class="bloco2-h3"> Lista de Universidades com especialização na área</h3>
+            <p class="bloco2-parag"><p class="bloco2-parag"><a href="https://thequantuminsider.com/2022/05/16/quantum-research/" target="_blank">Universidades</a></p>
+            <h3 class="bloco2-h3"> Desenvolvimento de Habilidades:</h3>
+            <br>
+            <p class="bloco2-parag">Aprofunde seus conhecimentos em álgebra linear, teoria dos números, teoria quântica e programação. Ferramentas como o MATLAB e Python são úteis, e é fundamental entender as bases da programação quântica.</p>
+            <br>
+            <h3 class="bloco2-h3">Participação em Cursos Online:</h3>
+            <br>
+            <p class="bloco2-parag"> Explore cursos online em plataformas como Coursera, edX e Udacity, oferecendo desde introduções à computação quântica até cursos mais avançados em algoritmos quânticos e programação.</p>
+            <br>
+            <p class="bloco2-parag"><a href="coursera.org" target="_blank"> Coursera</a></p>
+            <p class="bloco2-parag"><a href="edx.org" target="_blank"> edX</a></p>
+            <p class="bloco2-parag"><a href="udacity.com" target="_blank"> Udacity</a></p>
+            <br>
+            <h1>Recursos para aprofundamento</h1>
+            <br>
+            <h3 class="bloco2-h3">Livros especializados:</h3>
+            <p class="bloco2-parag"> Leia livros especializados em computação quântica. "Quantum Computation and Quantum Information" de Nielsen e Chuang</p>
+            <p class="bloco2-parag">"Quantum Computing: A Gentle Introduction" de Eleanor Rieffel e Wolfgang Polak.</p>
+            <p class="bloco2-parag">"Programming The Universe: A Quantum Computer Scientist Takes on the Cosmos." de Seth Lloyd</p>
+            <p class="bloco2-parag">"Quantum Computing for Everyone", Chris Bernhardt</p>
+            <p class="bloco2-parag">"QUANTUM COMPUTING: AN APPLIED APPROACH", Jack D. Hidary</p>
+            <br>
+            <h3 class="bloco2-h3">Cursos Online:</h3>
+            <br>
+            <p class="bloco2-parag">Faça cursos online oferecidos por universidades e instituições renomadas. Certifique-se de praticar os conceitos aprendidos em ambientes como simuladores quânticos online.</p>
+            <br>
+            <p class="bloco2-parag"><a href=" https://impa.br/ensino/programas-de-formacao/doutorado/minicursos/introduction-to-quantum-computing/" target="_blank"> Mini curso pela Instituto de Matemática Pura e Aplicada</a></p>
+            <br>
+            <h3 class="bloco2-h3">Comunidades Online:</h3>
+            <br>
+            <p class="bloco2-parag">Junte-se a comunidades online, como o Stack Exchange Quantum Computing ou fóruns específicos, para interagir com outros entusiastas e profissionais da área.</p>
+            <br>
+            <p class="bloco2-parag"><a href="https://quantumcomputing.stackexchange.com/" target="_blank"> Stack Exchange Quantum Computing</a></p>
+            <br>
+            <h1>Entrando no mercado de trabalho</h1>
+            <br>
+            <h3 class="bloco2-h3">Estágios e Oportunidades de Trabalho:</h3>
+            <p class="bloco2-parag">  Procure estágios em empresas de tecnologia quântica ou em laboratórios de pesquisa. Essas oportunidades proporcionam experiência prática e contato com profissionais estabelecidos.</p>
+            <br>
+            <h3 class="bloco2-h3">Participação em Conferências e Eventos:</h3>
+            <br>
+            <p class="bloco2-parag">Compareça a conferências e eventos relacionados à computação quântica para ficar atualizado sobre as últimas tendências, fazer networking e aprender com especialistas.</p>
+            <br>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+          var menu = document.getElementById('menu');
+          var content = document.querySelector('.content');
+          var menuWidth = menu.offsetWidth;
+      
+          if (menu.style.left === '0px') {
+            menu.style.left = -menuWidth + 'px';
+            content.style.marginLeft = '20px';
+          } else {
+            menu.style.left = '0px';
+            content.style.marginLeft = menuWidth + 'px';
+          }
+        }
+      </script>
+</html>

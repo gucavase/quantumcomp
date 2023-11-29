@@ -1,0 +1,323 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Victor Mono', monospace;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: linear-gradient(245.59deg, rgb(131, 131, 131) 0%, #525252 28.53%, #3a3a3a 75.52%);
+}
+.Titulo{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid;
+}
+
+.bloco-1{
+    padding-top: 200px;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, rgb(131, 131, 131) 0%, #525252 28.53%, #3a3a3a 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+
+}
+
+section{
+    padding: 0 10%;
+}
+.bloco1-texto h1{
+    font-family: 'Victor Mono', monospace;
+    font-size: 90px;
+    line-height: 1;
+    color: rgb(230, 228, 226);
+    margin: 0 0 45px;
+}
+
+.bloco1-texto p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.bloco-1 {
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, rgb(131, 131, 131) 0%, #525252 28.53%, #3a3a3a 75.52%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: white 1px solid;
+}
+
+.bloco1-imagem img {
+    padding-left: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+.bloco1-texto {
+    color: white;
+    flex: 1; 
+}
+
+.bloco-1:after {
+    content: "";
+    display: block;
+    border-top: 1px solid #ccc;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+}
+.line {
+    border-bottom: 1px solid #888;
+  }
+
+.bloco-2{
+    padding-top: 200px;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245.59deg, rgb(131, 131, 131) 0%, #525252 28.53%, #3a3a3a 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+.bloco-2 h1{
+    text-align: center;
+    padding-left: 200px;
+    font-family: 'Victor Mono', monospace;
+    font-size: 90px;
+    line-height: 1;
+    color: rgb(230, 228, 226);
+    margin: 0 0 45px;
+}
+
+.bloco2-h2{
+    text-align: center;
+    padding-left: 200px;
+    color: white;
+}
+
+.bloco2-h3{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    text-align: center;
+    color: white;
+}
+
+.bloco2-parag{
+    color: white;
+    text-align: center;
+    padding-left: 200px;
+}
+
+#espacamento {
+    padding-top: 40px;
+
+}
+
+#espacamento2{
+    padding-bottom: 80px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: linear-gradient(245.59deg, rgb(131, 131, 131) 0%, #525252 28.53%, #3a3a3a 75.52%);
+}
+
+.Titulo {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid;
+}
+
+.menu-container {
+    height: 100vh;
+    width: 250px;
+    background-color: #333;
+    position: fixed;
+    left: -250px;
+    transition: left 0.3s ease-in-out;
+  }
+
+  .menu-button {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .content {
+    margin-left: 20px;
+    transition: margin-left 0.3s ease-in-out;
+  }
+.paragmenu{
+    padding-top: 50px;
+}
+
+.menu-button{
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+#APLICACOES{
+    width: 8;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 15px 5%;
+    }
+
+    .bloco-1, .bloco-2 {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloco1-imagem img {
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .bloco1-texto,
+    .bloco2-texto {
+        padding-left: 0;
+    }
+
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navlist a {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .menu-container {
+        width: 100%;
+        left: -100%;
+    }
+
+    .menu-button {
+        left: 10px;
+        top: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Titulo {
+        font-size: 24px;
+    }
+
+    .bloco1-texto h1 {
+        font-size: 36px;
+    }
+
+    .bloco2-h2,
+    .bloco2-h3 {
+        font-size: 24px;
+    }
+
+    .bloco2-parag {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bloco-2 h1 {
+        text-align: center;
+        padding-left: 0;
+        font-size: 36px;
+    }
+
+    .bloco2-h2,
+    .bloco2-h3 {
+        padding-left: 0;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+
+    .bloco2-parag {
+        color: white;
+        text-align: center;
+        padding-left: 0;
+        font-size: 14px;
+    }
+}

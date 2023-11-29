@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+   
+    <header>
+        <a href="#" class="Titulo">Computação Quântica</a>
+
+        <ul class="navlist">
+            <li><a href="index.html">Introdução</a></li>
+            <li><a href="aplicacoes(1).html">Aplicações</a></li>
+            <li><a href="matematica(1).html">Matemática</a></li>
+           <li><a href="entrar.html">Ingressando</a></li>
+           
+           <div class="menu-container" id="menu">
+            <p class="paragmenu"><a href="#">Contato</a></p>
+            <p class="paragmenu"><a href="#">Suporte</a></p>
+            <p class="paragmenu"><a href="#">Sobre nós</a></p>
+          </div>
+        
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="bloco-1">
+        <div class="bloco1-texto">
+            <h1>Aplicações Práticas</h1>
+            <p>A computação quântica, baseada nos princípios da mecânica quântica, apresenta aplicações práticas inovadoras que têm o potencial de transformar significativamente várias áreas da computação tradicional. Suas características-chave, como superposição e emaranhamento quântico, possibilitam o processamento de informações de maneiras que desafiam as limitações dos computadores clássicos.</p>
+        </div>
+        <div class="bloco1-imagem">
+            <img src="Why-use-quantum-computing-and-which-key-verticals-will-it-disrupt.png" alt="Descrição da Imagem" id="CHAVE">
+        </div>
+        <div class="line"></div>
+    </section>
+
+    <section class="bloco-2">
+        <div class="bloco2-texto">
+            <h1>Aplicações</h1>
+            <br>
+            <h3 class="bloco2-h3">Criptografia Quântica:</h3>
+            <br>
+            <p class="bloco2-parag">Desenvolvimento de sistemas de criptografia quântica que utilizam propriedades quânticas para garantir a segurança da comunicação. Isso inclui a distribuição segura de chaves quânticas usando princípios como o entrelaçamento quântico.</p>
+            <br>
+            <h3 class="bloco2-h3">Fatorização de Números:</h3>
+            <br>
+            <p class="bloco2-parag">O algoritmo de Shor, um dos mais conhecidos na computação quântica, é capaz de fatorizar grandes números em tempo polinomial. Isso tem implicações na quebra de algoritmos de criptografia baseados na dificuldade de fatorização.</p>
+            <br>
+            <h3 class="bloco2-h3">Simulações Quânticas:</h3>
+            <br>
+            <p class="bloco2-parag"> A capacidade de simular sistemas quânticos complexos, como moléculas e reações químicas, é uma aplicação valiosa para a compreensão de fenômenos químicos e desenvolvimento de novos materiais.</p>
+            <br>
+            <h3 class="bloco2-h3">Otimização de Problemas:</h3>
+            <br>
+            <p class="bloco2-parag">Algoritmos quânticos, como o algoritmo de Grover, podem ser aplicados para otimizar a busca em grandes conjuntos de dados não ordenados, melhorando a eficiência em áreas como logística e planejamento.</p>
+            <br>
+            <h3 class="bloco2-h3">Análise de Risco Financeiro:</h3>
+            <br>
+            <p class="bloco2-parag">A computação quântica pode ser empregada para realizar simulações mais precisas e rápidas em modelos financeiros complexos, melhorando a análise de risco e otimizando estratégias de investimento.</p>
+            <br>
+            <h3 class="bloco2-h3">Desenvolvimento de Novos Materiais:</h3>
+            <br>
+            <p class="bloco2-parag">Simulações quânticas podem ser utilizadas para entender as propriedades dos materiais em um nível quântico, acelerando a descoberta e desenvolvimento de novos materiais com propriedades específicas.</p>
+            <br>
+            <h3 class="bloco2-h3">Optimização de Cadeias de Suprimentos:</h3>
+            <br>
+            <p class="bloco2-parag">Aplicações em otimização de cadeias de suprimentos, onde algoritmos quânticos podem lidar com complexidades logísticas e encontrar soluções mais eficientes para distribuição e gerenciamento de recursos.</p>
+            <br>
+            <h3 class="bloco2-h3">Inteligência Artificial Quântica:</h3>
+            <br>
+            <p class="bloco2-parag">Exploração de algoritmos quânticos para aprimorar as capacidades de inteligência artificial, levando a modelos mais eficientes em termos de tempo de treinamento e precisão.</p>
+            <br>
+            <h3 class="bloco2-h3">Análise de Grandes Conjuntos de Dados:</h3>
+            <br>
+            <p class="bloco2-parag">A capacidade de realizar operações em paralelo pode ser aplicada em análises de grandes conjuntos de dados, proporcionando uma vantagem significativa na eficiência de processamento.</p>
+            <br>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+          var menu = document.getElementById('menu');
+          var content = document.querySelector('.content');
+          var menuWidth = menu.offsetWidth;
+      
+          if (menu.style.left === '0px') {
+            menu.style.left = -menuWidth + 'px';
+            content.style.marginLeft = '20px';
+          } else {
+            menu.style.left = '0px';
+            content.style.marginLeft = menuWidth + 'px';
+          }
+        }
+      </script>
+</html>

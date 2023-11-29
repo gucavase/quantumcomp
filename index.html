@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   
+    <header>
+        <a href="#" class="Titulo">Computação Quântica</a>
+
+        <ul class="navlist">
+            <li><a href="index.html">Introdução</a></li>
+            <li><a href="aplicacoes(1).html">Aplicações</a></li>
+            <li><a href="matematica(1).html">Matemática</a></li>
+           <li><a href="entrar.html">Ingressando</a></li>
+           
+
+
+    </header>
+
+    <section class="bloco-1">
+        <div class="bloco1-texto">
+            <h1>O que é computação quântica?</h1>
+            <p>A computação quântica é um campo da ciência da computação que utiliza os princípios da mecânica quântica para realizar operações computacionais.
+            Ao contrário dos computadores clássicos, que utilizam bits tradicionais que podem representar estados binários (0 ou 1), os computadores quânticos utilizam qubits, que podem existir em múltiplos estados simultaneamente devido ao fenômeno chamado superposição quântica.</p>
+            <p> </p><a href="https://youtu.be/jHoEjvuPoB8?si=BTx2j_37cZZxIJw0" target="_blank"> Quantum Computers, Explained With Quantum Physics</a></p>
+        </div>
+        <div class="bloco1-imagem">
+            <img src="Quantum-Computing_-What-Every-CEO-Needs-to-Know.jpg" alt="Descrição da Imagem">
+        </div>
+        <div class="line"></div>
+    </section>
+
+    <section class="bloco-2">
+        <div class="bloco2-texto">
+            <h1>Prós/Contras</h1>
+            <h2 class="bloco2-h2">Vantagens da Computação Quântica</h2>
+            <br>
+            <h3 class="bloco2-h3">Processamento Paralelo Massivo:</h3>
+            <br>
+            <p class="bloco2-parag">Os qubits em superposição permitem realizar cálculos em paralelo, proporcionando uma capacidade de processamento exponencialmente maior do que os bits clássicos, que operam de forma sequencial.</p>
+            <br>
+            <h3 class="bloco2-h3">Algoritmos Quânticos Específicos:</h3>
+            <br>
+            <p class="bloco2-parag">Algoritmos como o de Shor para fatorização de números e o de Grover para busca em banco de dados oferecem eficiência significativamente superior a tarefas específicas, como quebra de criptografia e busca não ordenada.</p>
+            <br>
+            <h3 class="bloco2-h3">Simulações Quânticas:</h3>
+            <br>
+            <p class="bloco2-parag">A computação quântica é particularmente eficaz na simulação de sistemas quânticos complexos, como moléculas e reações químicas, sendo útil para avanços na química e em materiais.</p>
+            <br>
+            <h3 class="bloco2-h3">Velocidade em Determinadas Tarefas:</h3>
+            <br>
+            <p class="bloco2-parag">Para problemas específicos, a computação quântica pode oferecer soluções mais rápidas do que os algoritmos clássicos correspondentes, especialmente em domínios como otimização e machine learning quântico.</p>
+            <br>
+            <h2 class="bloco2-h2" id="espacamento">Desvantagens da Computação Quântica</h2>
+            <br>
+            <h3 class="bloco2-h3">Suscetibilidade a Erros Quânticos:</h3>
+            <br>
+            <p class="bloco2-parag">Qubits são sensíveis a perturbações externas, resultando em erros de leitura ou operação. Mecanismos de correção de erros quânticos estão em desenvolvimento, mas ainda são desafios significativos.</p>
+            <br>
+            <h3 class="bloco2-h3">Requisitos de Hardware Complexos:</h3>
+            <br>
+            <p class="bloco2-parag">Para manter a coerência quântica, os computadores quânticos precisam ser mantidos a temperaturas extremamente baixas. Além disso, a manipulação precisa de qubits exige uma infraestrutura tecnológica altamente especializada.</p>
+            <br>
+            <h3 class="bloco2-h3">Dificuldade na Inicialização e Leitura:</h3>
+            <br>
+            <p class="bloco2-parag">Preparar um estado quântico inicial e medir o resultado final sem perturbar o sistema são tarefas desafiadoras. Isso limita a facilidade de utilização e a aplicabilidade em certos contextos práticos.</p>
+            <br>
+            <h3 class="bloco2-h3">Limitações em Tarefas Clássicas:</h3>
+            <br>
+            <p class="bloco2-parag" id="espacamento2">Em muitas tarefas do dia a dia, a computação quântica não oferece vantagens significativas e pode até ser menos eficiente do que a computação clássica. A transição entre os dois paradigmas pode ser complexa.</p>
+        </div>
+    </section>
+    <script>
+        function toggleMenu() {
+          var menu = document.getElementById('menu');
+          var content = document.querySelector('.content');
+          var menuWidth = menu.offsetWidth;
+      
+          if (menu.style.left === '0px') {
+            menu.style.left = -menuWidth + 'px';
+            content.style.marginLeft = '20px';
+          } else {
+            menu.style.left = '0px';
+            content.style.marginLeft = menuWidth + 'px';
+          }
+        }
+      </script>
+</html>
