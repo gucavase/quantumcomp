@@ -414,4 +414,23 @@ header {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    h1{
+        padding-top: 100px;
+    }
+    .menu-container {
+        width: 100%;
+        left: -100%;
+    }
+
+    .menu-button {
+        left: 10px;
+        top: 10px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
     
